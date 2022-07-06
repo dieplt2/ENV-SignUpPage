@@ -20,6 +20,7 @@ app.post("/", function(req, res){
     const firsName = req.body.fName;
     const lastName = req.body.lName;
     const email = req.body.email;
+    const mobile = req.body.mobile;
     const hoby = req.body.hoby;
     const data1 = {
         members: [
@@ -29,7 +30,7 @@ app.post("/", function(req, res){
                 merge_fields: {
                     FNAME: firsName,
                     LNAME: lastName,
-                    PHONE: 0982583592,
+                    PHONE: mobile,
                     HOBY: hoby
                 }
             }
