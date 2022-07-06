@@ -8,9 +8,21 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-image: url("../image/S1.png");
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
 
+.text1{
+  text-align: center;
+  align-items: center;
+  margin-inline: auto;
+  color: rgb(248, 22, 218);
+}
+.signup {
+  color: azure;
+}
 .form-signin {
   max-width: 330px;
   padding: 15px;

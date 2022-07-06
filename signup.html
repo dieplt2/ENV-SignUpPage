@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.98.0">
-    <title>Signin Template · Bootstrap v5.2</title>
+    <title>SignUpPage-ENV</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
 
@@ -27,6 +27,10 @@
 
 
     <style>
+      body {
+  background-image: url("image/S1.png");
+  background-repeat: no-repeat;
+}
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -83,21 +87,21 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body class="text-center">
+  <body class="text-center"  background-image = "S1.jpeg">
     
 <main class="form-signin w-100 m-auto">
   <form action="/" method="POST">
-    <img class="mb-4" src="image/supperman.png" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Sign Up to try POC Sentinel One!</h1>
+    <img class="mb-4" src="image/ENV-LOGO.png" alt="" width="150" height="150">
+    <h1 class="mb-3 signup" >DEMO & POC now</h1>
 
    
       <input type="text" name="fName" class="form-control top" placeholder="First Name" required>
       <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
       <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
       <input type="text" name="mobile" class="form-control bottom" placeholder="Mobile" required>
-      <input type="text" name="hoby" class="form-control bottom" placeholder="Hoby" required>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me up!</button>
-    <p class="mt-5 mb-3 text-muted">&copy; Exclusive Networks Vietnam</p>
+    
+    <button class="w-100 btn btn-lg btn-primary signup" type="submit">Sign me up!</button>
+    <p class="mt-5 signup"> Exclusive Networks Vietnam</p>
   </form>
 </main>
 
