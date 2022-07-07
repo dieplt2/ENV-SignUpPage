@@ -18,6 +18,7 @@ body {
   text-align: center;
   align-items: center;
   margin-inline: auto;
+  font-size: 20px;
   color: rgb(248, 22, 218);
 }
 .signup {
