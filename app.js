@@ -21,7 +21,7 @@ app.post("/", function(req, res){
     const lastName = req.body.lName;
     const email = req.body.email;
     const mobile = req.body.mobile;
-    const hoby = req.body.hoby;
+   
     const data1 = {
         members: [
             {
@@ -31,7 +31,7 @@ app.post("/", function(req, res){
                     FNAME: firsName,
                     LNAME: lastName,
                     PHONE: mobile,
-                    HOBY: hoby
+                  
                 }
             }
         ]
